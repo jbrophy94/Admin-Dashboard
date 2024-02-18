@@ -20,6 +20,8 @@ body {
   height: 100%;
   background-color: var(--background-grey);
   color: var(--card-text-color);
+  transform: scale(1); /* Scale by 1.33 (equivalent to zoom level 0.75) */
+  transform-origin: 0 0; /* Set the origin to the top-left corner */
 }
 
 /* .grid-item {
